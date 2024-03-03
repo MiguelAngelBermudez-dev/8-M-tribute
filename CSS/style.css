@@ -15,9 +15,6 @@
   main {
     flex: 1 0 auto;
   }
-  footer {
-    flex-shrink: 0;
-  }
   .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -26,11 +23,6 @@
       "header header header header header"
       "aside main main main div4"
       "footer footer footer footer footer";
-  }
-  
-  footer {
-    grid-area: footer;
-    border: solid 1px black;
   }
   header { grid-area: 1 / 1 / 2 / 6; }
   aside { grid-area: 2 / 1 / 5 / 2; }
